@@ -27,9 +27,9 @@ public class BloodPressure {
     @Override
     public String toString() {
         return "BloodPressure{" +
-            "high=" + high +
-            ", low=" + low +
-            '}';
+                "high=" + high +
+                ", low=" + low +
+                '}';
     }
 
     @Override
@@ -38,7 +38,7 @@ public class BloodPressure {
         if (o == null || getClass() != o.getClass()) return false;
         BloodPressure that = (BloodPressure) o;
         return high == that.high &&
-            low == that.low;
+                low == that.low;
     }
 
     @Override

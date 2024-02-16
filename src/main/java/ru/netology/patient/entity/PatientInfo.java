@@ -54,12 +54,12 @@ public class PatientInfo {
     @Override
     public String toString() {
         return "PatientInfo{" +
-            "id='" + id + '\'' +
-            ", name='" + name + '\'' +
-            ", surname='" + surname + '\'' +
-            ", birthday=" + birthday +
-            ", healthInfo=" + healthInfo +
-            '}';
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", birthday=" + birthday +
+                ", healthInfo=" + healthInfo +
+                '}';
     }
 
     @Override
@@ -68,10 +68,10 @@ public class PatientInfo {
         if (o == null || getClass() != o.getClass()) return false;
         PatientInfo that = (PatientInfo) o;
         return id.equals(that.id) &&
-            name.equals(that.name) &&
-            surname.equals(that.surname) &&
-            birthday.equals(that.birthday) &&
-            healthInfo.equals(that.healthInfo);
+                name.equals(that.name) &&
+                surname.equals(that.surname) &&
+                birthday.equals(that.birthday) &&
+                healthInfo.equals(that.healthInfo);
     }
 
     @Override
